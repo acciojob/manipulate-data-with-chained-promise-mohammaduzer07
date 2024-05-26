@@ -2,8 +2,8 @@
 const ouput = document.getElementById('output');
 let arr = [1, 2, 3, 4];
 function promise(arr, time) {
-	return new Promise((resolve)=> {
-		setTimeout(()=> {
+	return new Promise((resolve) => {
+		setTimeout(() => {
 			resolve(arr);
 		}, time);
 	});
@@ -28,7 +28,7 @@ promise(arr, 3000);
 })
 .catch((error)=>{
 	console.log(error);
-})
+});
 
 
 
