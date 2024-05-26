@@ -1,9 +1,9 @@
 //your JS code here. If required.
-let ouput = document.getElementById('output');
-let arr = [1,2,3,4];
+const ouput = document.getElementById('output');
+let arr = [1, 2, 3, 4];
 function promise(arr, time) {
-	return new Promise((resolve){
-		setTimeout(() =>{
+	return new Promise((resolve)=> {
+		setTimeout(()=> {
 			resolve(arr);
 		}, time);
 	});
