@@ -9,7 +9,7 @@ function promise(arr, time) {
 	});
 }
 
-promise(arr, 3000);
+promise(arr, 3000)
 .then((res) =>{
 	const even = res.filter((num) =>{
 		return num % 2 === 0;
